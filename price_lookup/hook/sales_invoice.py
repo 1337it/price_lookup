@@ -14,7 +14,7 @@ def get_price_history(item_code = None, history_based_on = None, party = None):
         select 
             so.name as so_id, 
             so.customer as customer, 
-            so.transaction_date as date, 
+            so.posting_date as date, 
             so_item.item_code as item_code, 
             so_item.item_name as item_name, 
             so_item.price_list_rate as mrp, 
