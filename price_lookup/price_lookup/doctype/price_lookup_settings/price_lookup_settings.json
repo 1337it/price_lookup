@@ -30,6 +30,12 @@
    "label": "Sales Order Historical Data Limit"
   },
   {
+   "default": "3",
+   "fieldname": "sales_invoice_historical_data_limit",
+   "fieldtype": "Int",
+   "label": "Sales Invoice Historical Data Limit"
+  },
+  {
    "fieldname": "basic_information",
    "fieldtype": "HTML",
    "label": "Basic Information",
