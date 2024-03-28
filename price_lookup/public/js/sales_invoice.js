@@ -40,7 +40,7 @@ function set_price_history(frm, child_row) {
                 let prepared_data = `<table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>SO ID</th>
+                        <th>SINV ID</th>
                         <th>Party</th>
                         <th>Date</th>
                         <th>Item</th>
